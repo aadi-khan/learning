@@ -1,0 +1,18 @@
+
+{
+  "name": "pte-preparation-saas",
+  "version": "1.0.0",
+  "description": "AI-powered PTE Academic preparation SaaS platform",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo 'Use individual service start commands'",
+    "test": "echo 'Run tests for all services'"
+  },
+  "workspaces": [
+    "backend/*",
+    "frontend"
+  ],
+  "devDependencies": {
+    "turbo": "^1.8.0"
+  }
+}
